@@ -1,0 +1,119 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Avenir', helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+  position: fixed;
+  width: 375px;
+  height: 64px;
+  background-color: rgba(74,74,74,1);
+}
+
+footer {
+  margin: 0 auto;
+  position: fixed;
+  width: 375px;
+  height: 60px;
+  background-color: rgba(74,74,74,1);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  background-color: rgba(84,199,252,0.25);
+  margin: 0 auto;
+  width: 375px;
+  height: 814px;
+  margin-bottom:60px;
+  margin-top: -8px;
+}
+
+.map {
+  background-color: yellow;
+  margin: 0 auto;
+  width: 375px;
+  height: 291px;
+}
+
+.before-my-bus {
+  margin: 0 auto;
+  width: 341px;
+  height: 38px;
+  margin-top:20px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.before-my-bus h2 {
+  font-size: 2.8em;
+  color: black;
+  width: 95%;
+}
+
+.red_text {
+  color: red;
+}
+
+.next-bus {
+  background-color: red;
+  margin: 0 auto;
+  width: 375px;
+  height: 168px;
+  margin-top:20px;
+}
+
+.other-buses {
+  background-color: purple;
+  margin: 0 auto;
+  width: 375px;
+  height: 172px;
+  margin-top:20px;
+}
+
+.content h3 {
+  font-size: 2.4em;
+  color:black;
+  width: 90%;
+  text-indent: 17px;
+}
+
+h1 {
+  font-size: 2.0em;
+  color: white;
+  width: 30%;
+  float: center;
+  text-align: center;
+  margin-left: 35%;
+}
+
+.tableview_cell {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.tableview_cell h4 {
+  font-size: 1.4em;
+  color:black;
+  background-color: orange;
+  width: 60%;
+  text-indent: 46px;
+  float: center;
+  text-align: center;
+}
