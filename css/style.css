@@ -18,6 +18,67 @@ nav {
   background-color: rgba(74,74,74,1);
 }
 
+.status {
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 10px;
+  width: 375px;
+  height: 20px;
+  background-image: url(../images/status_bar.png);
+}
+/*nav h1:before {
+   content: url(../images/back_arrow.png);
+   padding-right: 30px;
+}*/
+
+.arrow_left {
+    content: url(../images/back_button_white.png);
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 5px;
+    width: 12.5px;
+    height: 25px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+
+nav h4{
+  font-size: 1.8em;
+  font-weight: 200;
+  color: white;
+  width: 30px;
+  margin-bottom: 30px;
+  margin-left: 3px;
+  text-align: left;
+  display: inline-block;
+  height: 25px;
+  line-height: 10px;
+}
+
+.back_button {
+  display: inline;
+  height: 25px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3.0em;
+  font-weight: 400;
+  line-height: 10px;
+  color: white;
+  width: 30%;
+  float: center;
+  text-align: center;
+  margin-left: 62px;
+  display: inline-block;
+  margin-top: 0px;
+  vertical-align: middle;
+}
+
+.under_nav {
+  width: 375px;
+  height: 64px;
+}
+
 footer {
   margin: 0 auto;
   position: fixed;
@@ -34,16 +95,17 @@ footer {
   background-color: rgba(84,199,252,0.25);
   margin: 0 auto;
   width: 375px;
-  height: 814px;
+  height: 822px;
   margin-bottom:60px;
-  margin-top: -8px;
+  margin-top: 0px;
 }
 
 .map {
-  background-color: yellow;
-  margin: 0 auto;
+  background-color: white;
+  background-image: url(../images/map.png);
   width: 375px;
   height: 291px;
+  margin-left: 0;
 }
 
 .before-my-bus {
@@ -56,7 +118,7 @@ footer {
 }
 
 .before-my-bus h2 {
-  font-size: 2.8em;
+  font-size: 2.4em;
   color: black;
   width: 95%;
 }
@@ -66,35 +128,35 @@ footer {
 }
 
 .next-bus {
-  background-color: red;
+  /*background-color: red;*/
+  width: 375px;
+  height: 168px;
+}
+
+.next-bus h3 {
+  padding-top:5px;
+  padding-bottom: 15px;
+}
+
+.other-buses {
+  /*background-color: purple;*/
   margin: 0 auto;
   width: 375px;
   height: 168px;
   margin-top:20px;
 }
 
-.other-buses {
-  background-color: purple;
-  margin: 0 auto;
-  width: 375px;
-  height: 172px;
-  margin-top:20px;
+.other-buses h3 {
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 
 .content h3 {
-  font-size: 2.4em;
+  font-size: 2.0em;
   color:black;
   width: 90%;
   text-indent: 17px;
-}
-
-h1 {
-  font-size: 2.0em;
-  color: white;
-  width: 30%;
-  float: center;
-  text-align: center;
-  margin-left: 35%;
+  margin-bottom: 0px;
 }
 
 .tableview_cell {
@@ -106,14 +168,107 @@ h1 {
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 0;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.tableview_cell:hover{
+  background-color:#A9A9A9;
 }
 
 .tableview_cell h4 {
   font-size: 1.4em;
   color:black;
-  background-color: orange;
+  display: inline-block;
+  /*background-color: orange;*/
   width: 60%;
-  text-indent: 46px;
+  /*text-indent: 46px;*/
+  padding-left: 15px;
+  float: center;
+  text-align: left;
+  line-height: 3;
+}
+
+.distance {
+  font-size: 1.4em;
+  color:black;
+  display: inline-block;
+  /*background-color: red;*/
+  width: 39%;
+  /*text-indent: 46px;*/
   float: center;
   text-align: center;
+  line-height: 3;
+}
+
+.bus_1 h4:before {
+   content: url(../images/bus_1.png);
+   padding: 0 5px 0 0;
+   padding-right: 15px;
+   /*background-color: green;*/
+   vertical-align: -6px;
+}
+
+.bus_2 h4:before {
+   content: url(../images/bus_2.png);
+   padding: 0 5px 0 0;
+   padding-right: 15px;
+   /*background-color: green;*/
+   vertical-align: -6px;
+}
+
+.bus_3 h4:before {
+   content: url(../images/bus_3.png);
+   padding: 0 5px 0 0;
+   padding-right: 15px;
+   /*background-color: green;*/
+   vertical-align: -6px;
+}
+
+.bus_4 h4:before {
+   content: url(../images/bus_4.png);
+   padding: 0 5px 0 0;
+   padding-right: 15px;
+   /*background-color: green;*/
+   vertical-align: -6px;
+}
+
+.tableview_cell h5:after {
+   content: url(../images/gray_arrow.png);
+   float: right;
+   padding-right: 15px;
+}
+
+.globe {
+    content: url(../images/globe_icon.png);
+    display: inline-block;
+    padding: 15px;
+    margin-left: 33px;
+    margin-right: 33px;
+    width: 15%;
+    /*background-color: yellow;*/
+}
+
+.notifications {
+    content: url(../images/notifications_icon.png);
+    display: inline-block;
+    padding: 15px;
+    margin-left: 33px;
+    margin-right: 33px;
+    width: 15%;
+    /*background-color: yellow;*/
+}
+
+.settings {
+    content: url(../images/settings-icon.png);
+    display: inline-block;
+    padding: 15px;
+    margin-left: 33px;
+    margin-right: 33px;
+    width: 15%;
+    /*background-color: yellow;*/
 }
