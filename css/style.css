@@ -25,10 +25,6 @@ nav {
   height: 20px;
   background-image: url(../images/status_bar.png);
 }
-/*nav h1:before {
-   content: url(../images/back_arrow.png);
-   padding-right: 30px;
-}*/
 
 .arrow_left {
     content: url(../images/back_button_white.png);
@@ -42,7 +38,7 @@ nav {
 }
 
 nav h4{
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 200;
   color: white;
   width: 30px;
@@ -61,14 +57,14 @@ nav h4{
 }
 
 h1 {
-  font-size: 3.0em;
+  font-size: 1.8em;
   font-weight: 400;
   line-height: 10px;
   color: white;
   width: 30%;
   float: center;
   text-align: center;
-  margin-left: 62px;
+  margin-left: 70px;
   display: inline-block;
   margin-top: 0px;
   vertical-align: middle;
@@ -92,7 +88,7 @@ footer {
 }
 
 .container {
-  background-color: rgba(84,199,252,0.25);
+  background-color: rgba(84,199,252,0.05);
   margin: 0 auto;
   width: 375px;
   height: 822px;
@@ -118,7 +114,7 @@ footer {
 }
 
 .before-my-bus h2 {
-  font-size: 2.4em;
+  font-size: 2.0em;
   color: black;
   width: 95%;
 }
@@ -128,7 +124,6 @@ footer {
 }
 
 .next-bus {
-  /*background-color: red;*/
   width: 375px;
   height: 168px;
 }
@@ -139,7 +134,6 @@ footer {
 }
 
 .other-buses {
-  /*background-color: purple;*/
   margin: 0 auto;
   width: 375px;
   height: 168px;
@@ -152,7 +146,7 @@ footer {
 }
 
 .content h3 {
-  font-size: 2.0em;
+  font-size: 1.6em;
   color:black;
   width: 90%;
   text-indent: 17px;
@@ -168,7 +162,7 @@ footer {
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
   display: inline-block;
 }
 
@@ -184,9 +178,7 @@ ul {
   font-size: 1.4em;
   color:black;
   display: inline-block;
-  /*background-color: orange;*/
   width: 60%;
-  /*text-indent: 46px;*/
   padding-left: 15px;
   float: center;
   text-align: left;
@@ -197,9 +189,7 @@ ul {
   font-size: 1.4em;
   color:black;
   display: inline-block;
-  /*background-color: red;*/
   width: 39%;
-  /*text-indent: 46px;*/
   float: center;
   text-align: center;
   line-height: 3;
@@ -209,7 +199,6 @@ ul {
    content: url(../images/bus_1.png);
    padding: 0 5px 0 0;
    padding-right: 15px;
-   /*background-color: green;*/
    vertical-align: -6px;
 }
 
@@ -217,7 +206,6 @@ ul {
    content: url(../images/bus_2.png);
    padding: 0 5px 0 0;
    padding-right: 15px;
-   /*background-color: green;*/
    vertical-align: -6px;
 }
 
@@ -225,7 +213,6 @@ ul {
    content: url(../images/bus_3.png);
    padding: 0 5px 0 0;
    padding-right: 15px;
-   /*background-color: green;*/
    vertical-align: -6px;
 }
 
@@ -233,7 +220,6 @@ ul {
    content: url(../images/bus_4.png);
    padding: 0 5px 0 0;
    padding-right: 15px;
-   /*background-color: green;*/
    vertical-align: -6px;
 }
 
@@ -247,28 +233,34 @@ ul {
     content: url(../images/globe_icon.png);
     display: inline-block;
     padding: 15px;
-    margin-left: 33px;
-    margin-right: 33px;
+    margin-left: 28px;
+    margin-right: 28px;
     width: 15%;
-    /*background-color: yellow;*/
 }
 
 .notifications {
     content: url(../images/notifications_icon.png);
     display: inline-block;
     padding: 15px;
-    margin-left: 33px;
-    margin-right: 33px;
+    margin-left: 0px;
+    margin-right: 29px;
     width: 15%;
-    /*background-color: yellow;*/
 }
 
 .settings {
     content: url(../images/settings-icon.png);
     display: inline-block;
     padding: 15px;
-    margin-left: 33px;
-    margin-right: 33px;
+    margin-left: -2px;
+    margin-right: 28px;
     width: 15%;
-    /*background-color: yellow;*/
+}
+
+.divider {
+    content: url(../images/divider.png);
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+    margin-right: 33px;
+    width: 6px;
 }
